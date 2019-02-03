@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <title>Palindromic Checker</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <style>
-    html{
+        html{
         background-image: url(./bg4.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -42,21 +43,28 @@
         color:white;
         background-color: #4b4646;
         border-radius: 5px;
-        font-size: 13px;
+        font-size: 20px;
+        margin-top: 15px;
     }
     button:focus{
     outline: none;
     }
     </style>
 </head>
+
 <body>
     <h1>Palindromic Checker</h1>
-    <h3>Checks if the string is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+    <h3>Checks if the string is a word or sentence that's spelled the same way both forward and backward, ignoring
+        punctuation, case, and spacing.
     </h3>
     <p id="p"></p>
-    <div id="center" ><input type="text" id="input">
+    <div id="center">
+        <input style="height:20px;" size="30" type="text" id="input">
+    </div>
+    <div style="text-align:center">
         <button onclick="check()">Check</button></div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
